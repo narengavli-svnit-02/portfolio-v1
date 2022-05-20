@@ -1,0 +1,28 @@
+.main_body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: aliceblue;
+    padding: 59px 0px;
+}
+#body_img_01{
+    margin: 20 0;
+}
+.border{
+    border-style: solid;
+    border-color: red;
+}
+
+#body_line_01{
+    font-size: 40px;
+    margin: 20px 30px;
+    color: blueviolet;
+}
+#body_line_02{
+    font-size: 20px;
+    margin: 20px 30px;
+    vertical-align: middle;
+}
+.body_text_box{
+    padding: 200px 0px;
+}

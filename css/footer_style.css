@@ -1,0 +1,21 @@
+/* ---------------------------------------------> Footer css <--------------------------------------------- */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.977);
+    border-style:solid none none none;
+    border-color: #f2f2f2;
+  }
+
+.footer_logo{
+    margin: 2px;;
+    width: 30px;
+    height: 30px;
+}
+#footer_rights{
+    color: aliceblue;
+    margin: 15px 20px;
+}
+#footer_icons{
+    margin: 6px 15px;
+}

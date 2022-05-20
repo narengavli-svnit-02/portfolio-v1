@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+.main_body {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: aliceblue;
+  font-family: Arial;
+  padding: 20px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: whitesmoke solid 1px; */
+  border-bottom: whitesmoke solid 1px;
+  border-top: whitesmoke solid 1px;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px 40px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  padding: 20px;
+  /* border: greenyellow solid 1px; */
+}
+.proj_img {
+  width: 100%;
+  box-shadow: 0 6px 10px 0 rgba(232, 230, 230, 0.2);
+}
+#cal_img {
+  width: 284px;
+  height: 414px;
+}
+
+/* project type name */
+.proj_type {
+  color: aqua;
+  margin: 6px;
+  font-size: larger;
+  text-align: end;
+}
+.proj_type_2 {
+  color: aqua;
+  margin: 6px;
+  font-size: larger;
+  text-align: start;
+}
+
+/* project title  */
+.proj_title {
+  color: rgb(255, 0, 0);
+  text-align: end;
+  font-size: 40px;
+  margin: 0px;
+}
+.proj_title_2 {
+  color: rgb(255, 0, 0);
+  text-align: start;
+  font-size: 40px;
+  margin: 0px;
+}
+
+/* used tech  */
+.used_tech {
+  color: rgb(255, 0, 234);
+  text-align: end;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+.used_tech_2 {
+  color: rgb(255, 0, 234);
+  text-align: start;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+/* project about */
+.proj_about {
+  margin: 0px;
+  font-size: larger;
+  text-align: end;
+}
+.proj_about_2 {
+  margin: 0px;
+  font-size: larger;
+  text-align: start;
+}
+
+/* project link icon  */
+.proj_icon {
+  margin: 2px 5px;
+  position: relative;
+  display: block;
+  float: left;
+  height: 34px;
+  width: 34px;
+}
+.git_ico_set {
+  display: flex;
+  justify-content: space-between;
+}
